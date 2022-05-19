@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     let vals = [1, 4, 2, 2, 6, 24, 15, 2, 60, 15, 6]
     override func viewDidLoad() {
         super.viewDidLoad()
+        //Kishore
        /* comple {
             print("com")
         }*/
