@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		030A58F42842683B00F60AD1 /* task4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030A58F32842683B00F60AD1 /* task4ViewController.swift */; };
 		034F0A0026C113220052DD0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034F09FF26C113220052DD0B /* AppDelegate.swift */; };
 		034F0A0226C113220052DD0B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034F0A0126C113220052DD0B /* SceneDelegate.swift */; };
 		034F0A0426C113220052DD0B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034F0A0326C113220052DD0B /* ViewController.swift */; };
@@ -53,6 +54,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		030A58F32842683B00F60AD1 /* task4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = task4ViewController.swift; sourceTree = "<group>"; };
 		034F09FC26C113220052DD0B /* test1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		034F09FF26C113220052DD0B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		034F0A0126C113220052DD0B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -105,6 +107,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		030A58F22842682200F60AD1 /* develop2 */ = {
+			isa = PBXGroup;
+			children = (
+				030A58F32842683B00F60AD1 /* task4ViewController.swift */,
+			);
+			path = develop2;
+			sourceTree = "<group>";
+		};
 		034F09F326C113220052DD0B = {
 			isa = PBXGroup;
 			children = (
@@ -131,6 +141,7 @@
 				034F09FF26C113220052DD0B /* AppDelegate.swift */,
 				034F0A0126C113220052DD0B /* SceneDelegate.swift */,
 				034F0A0326C113220052DD0B /* ViewController.swift */,
+				030A58F22842682200F60AD1 /* develop2 */,
 				034F0A0526C113220052DD0B /* Main.storyboard */,
 				034F0A0826C113250052DD0B /* Assets.xcassets */,
 				034F0A0A26C113250052DD0B /* LaunchScreen.storyboard */,
@@ -304,6 +315,7 @@
 			files = (
 				034F0A0426C113220052DD0B /* ViewController.swift in Sources */,
 				034F0A0026C113220052DD0B /* AppDelegate.swift in Sources */,
+				030A58F42842683B00F60AD1 /* task4ViewController.swift in Sources */,
 				034F0A0226C113220052DD0B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
