@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		030A58F728427D0800F60AD1 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030A58F628427D0800F60AD1 /* Constant.swift */; };
+		030A58FD28427DB300F60AD1 /* Task7ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030A58FC28427DB300F60AD1 /* Task7ViewController.swift */; };
 		034F0A0026C113220052DD0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034F09FF26C113220052DD0B /* AppDelegate.swift */; };
 		034F0A0226C113220052DD0B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034F0A0126C113220052DD0B /* SceneDelegate.swift */; };
 		034F0A0426C113220052DD0B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034F0A0326C113220052DD0B /* ViewController.swift */; };
@@ -55,6 +56,7 @@
 
 /* Begin PBXFileReference section */
 		030A58F628427D0800F60AD1 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		030A58FC28427DB300F60AD1 /* Task7ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task7ViewController.swift; sourceTree = "<group>"; };
 		034F09FC26C113220052DD0B /* test1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		034F09FF26C113220052DD0B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		034F0A0126C113220052DD0B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -115,6 +117,14 @@
 			path = Constant;
 			sourceTree = "<group>";
 		};
+		030A58FB28427DA300F60AD1 /* Task7 */ = {
+			isa = PBXGroup;
+			children = (
+				030A58FC28427DB300F60AD1 /* Task7ViewController.swift */,
+			);
+			path = Task7;
+			sourceTree = "<group>";
+		};
 		034F09F326C113220052DD0B = {
 			isa = PBXGroup;
 			children = (
@@ -141,6 +151,7 @@
 				034F09FF26C113220052DD0B /* AppDelegate.swift */,
 				034F0A0126C113220052DD0B /* SceneDelegate.swift */,
 				034F0A0326C113220052DD0B /* ViewController.swift */,
+				030A58FB28427DA300F60AD1 /* Task7 */,
 				030A58F528427CF500F60AD1 /* Constant */,
 				034F0A0526C113220052DD0B /* Main.storyboard */,
 				034F0A0826C113250052DD0B /* Assets.xcassets */,
@@ -316,6 +327,7 @@
 				034F0A0426C113220052DD0B /* ViewController.swift in Sources */,
 				034F0A0026C113220052DD0B /* AppDelegate.swift in Sources */,
 				034F0A0226C113220052DD0B /* SceneDelegate.swift in Sources */,
+				030A58FD28427DB300F60AD1 /* Task7ViewController.swift in Sources */,
 				030A58F728427D0800F60AD1 /* Constant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
