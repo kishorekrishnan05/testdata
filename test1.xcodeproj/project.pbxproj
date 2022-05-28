@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		030A58EB2842587000F60AD1 /* Task1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030A58EA2842587000F60AD1 /* Task1ViewController.swift */; };
 		034F0A0026C113220052DD0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034F09FF26C113220052DD0B /* AppDelegate.swift */; };
 		034F0A0226C113220052DD0B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034F0A0126C113220052DD0B /* SceneDelegate.swift */; };
 		034F0A0426C113220052DD0B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034F0A0326C113220052DD0B /* ViewController.swift */; };
@@ -54,6 +55,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		030A58EA2842587000F60AD1 /* Task1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task1ViewController.swift; sourceTree = "<group>"; };
 		034F09FC26C113220052DD0B /* test1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		034F09FF26C113220052DD0B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		034F0A0126C113220052DD0B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -107,6 +109,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		030A58E92842585C00F60AD1 /* Task1 */ = {
+			isa = PBXGroup;
+			children = (
+				030A58EA2842587000F60AD1 /* Task1ViewController.swift */,
+			);
+			path = Task1;
+			sourceTree = "<group>";
+		};
 		034F09F326C113220052DD0B = {
 			isa = PBXGroup;
 			children = (
@@ -133,6 +143,7 @@
 				034F09FF26C113220052DD0B /* AppDelegate.swift */,
 				034F0A0126C113220052DD0B /* SceneDelegate.swift */,
 				034F0A0326C113220052DD0B /* ViewController.swift */,
+				030A58E92842585C00F60AD1 /* Task1 */,
 				037E564E28424BA400B76ABF /* Constant */,
 				034F0A0526C113220052DD0B /* Main.storyboard */,
 				034F0A0826C113250052DD0B /* Assets.xcassets */,
@@ -315,6 +326,7 @@
 			files = (
 				034F0A0426C113220052DD0B /* ViewController.swift in Sources */,
 				037E565028424BB500B76ABF /* File.swift in Sources */,
+				030A58EB2842587000F60AD1 /* Task1ViewController.swift in Sources */,
 				034F0A0026C113220052DD0B /* AppDelegate.swift in Sources */,
 				034F0A0226C113220052DD0B /* SceneDelegate.swift in Sources */,
 			);
