@@ -26,6 +26,7 @@
 		034F0A3E26C1155A0052DD0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 034F0A3D26C1155A0052DD0B /* Assets.xcassets */; };
 		034F0A4126C1155A0052DD0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 034F0A3F26C1155A0052DD0B /* LaunchScreen.storyboard */; };
 		034F0A4626C1155A0052DD0B /* test3.app in Embed App Clips */ = {isa = PBXBuildFile; fileRef = 034F0A3226C115570052DD0B /* test3.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		037E565028424BB500B76ABF /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037E564F28424BB500B76ABF /* File.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +79,7 @@
 		034F0A4026C1155A0052DD0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		034F0A4226C1155A0052DD0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		034F0A4326C1155A0052DD0B /* test3.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = test3.entitlements; sourceTree = "<group>"; };
+		037E564F28424BB500B76ABF /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +133,7 @@
 				034F09FF26C113220052DD0B /* AppDelegate.swift */,
 				034F0A0126C113220052DD0B /* SceneDelegate.swift */,
 				034F0A0326C113220052DD0B /* ViewController.swift */,
+				037E564E28424BA400B76ABF /* Constant */,
 				034F0A0526C113220052DD0B /* Main.storyboard */,
 				034F0A0826C113250052DD0B /* Assets.xcassets */,
 				034F0A0A26C113250052DD0B /* LaunchScreen.storyboard */,
@@ -166,6 +169,14 @@
 				034F0A4326C1155A0052DD0B /* test3.entitlements */,
 			);
 			path = test3;
+			sourceTree = "<group>";
+		};
+		037E564E28424BA400B76ABF /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				037E564F28424BB500B76ABF /* File.swift */,
+			);
+			path = Constant;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -303,6 +314,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				034F0A0426C113220052DD0B /* ViewController.swift in Sources */,
+				037E565028424BB500B76ABF /* File.swift in Sources */,
 				034F0A0026C113220052DD0B /* AppDelegate.swift in Sources */,
 				034F0A0226C113220052DD0B /* SceneDelegate.swift in Sources */,
 			);
